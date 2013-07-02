@@ -1,0 +1,17 @@
+Hypothesis
+
+1) Useful review writers will continue write useful reviews.
+
+In the training data set, 1/2 new users (who wrote only 1 reviews) get more than one useful vote.
+
+
+TODO:
+
+get those really good/bad, i.e. considering popularity of a business
+
+len vs. rating deviation
+
+for each review
+a) make a dict<word,freq> and train a SVM`
+b) consider nouns, verbs, adj, adv separatedly
+
